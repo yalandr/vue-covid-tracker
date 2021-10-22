@@ -1,16 +1,15 @@
 <template>
   <Header />
-  <div class="container">
-    <router-view/>
-  </div>
+  <Home />
 </template>
 
 <script>
-import Header from '@/components/Header'
+import Header from '@/components/Header';
+import Home from '@/components/Home';
 
 export default {
   components: {
-    Header
+    Header, Home
   }
 }
 </script>
